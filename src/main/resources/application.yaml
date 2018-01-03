@@ -1,0 +1,8 @@
+spring:
+ application:
+  name: service-hi
+ profiles:
+  active: localhost
+server:
+ port: 8988
+
