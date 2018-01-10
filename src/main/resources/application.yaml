@@ -2,7 +2,7 @@ spring:
  application:
   name: service-hi
  profiles:
-  active: localhost
+  active: node2
 server:
  port: 8988
 

@@ -1,4 +1,4 @@
-package com.forezp;
+package com.jc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -41,9 +41,9 @@ public class ServiceHiApplication {
 
 	}
 	@RequestMapping("/hi")
-	public String callHome(){
+	public String hi(){
 		LOG.log(Level.INFO, "calling trace service-hi");
-		return restTemplate.getForObject("http://localhost:8989/Miya", String.class);
+		return restTemplate.getForObject("http://localhost:8989/miya", String.class);
 	}
 
 }
